@@ -1,0 +1,6 @@
+User-Agent: *
+Allow: /
+Disallow: /api/
+Disallow: /spasibo
+
+Sitemap: https://сочи-жк-море.рф/sitemap.xml
