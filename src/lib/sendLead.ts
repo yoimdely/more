@@ -25,7 +25,7 @@ type SiteConfig = {
 };
 
 const APPS_SCRIPT_URL =
-  "https://script.google.com/macros/s/AKfycbwmCIEtyYryXRBnpmPEEkC7jRH4zFgR-KafkWgwr42R4BqA-yEsnRWuHcUy7m1OnBgF/exec";
+  "https://script.google.com/macros/s/AKfycbyGL5Y4gBm9-2V_bBsT8QOmRwiJ1-sHOjnCOfYfzHeEXh-_FmeMsqISHJGEhrE1-8sV/exec";
 const REQUEST_TIMEOUT_MS = 10000;
 
 const FIELD_LIMITS = {
@@ -162,3 +162,4 @@ export async function sendLead(payload: LeadPayload) {
     clearTimeout(timeoutId);
   }
 }
+
